@@ -9,7 +9,26 @@ module.exports = {
       "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-      extend: {},
+        colors: {
+            'background': '#12161c',
+            'accent': '#3FFFB2',
+            'complement': '#3EECFF',
+            'white': '#FFFFFF'
+        },
+        extend: {
+            animation: {
+                'spin-slow': 'spin 3s linear infinite',
+              },
+
+            blur: {
+                '4xl': '128px',
+            },
+
+            fontFamily: {
+                'gloock': ['Gloock', 'sans-serif'],
+                'poppins': ['Poppins', 'sans-serif'],
+            }
+        },
     },
     plugins: [],
   }
