@@ -27,6 +27,10 @@ module.exports = {
             fontFamily: {
                 'gloock': ['Gloock', 'sans-serif'],
                 'poppins': ['Poppins', 'sans-serif'],
+            },
+
+            aspectRatio: {
+                'hero': '0.67 / 1'
             }
         },
     },
