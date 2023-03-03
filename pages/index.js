@@ -8,19 +8,20 @@ function Home() {
             </div>
             <div className="bg-background h-screen flex">
                 <div className="flex-1 text-xl text-white flex flex-col justify-center gap-4 p-16 z-10">
-                    <h1 className='font-poppins'>
-                        Hello! I'm Bharath Shanmugam AV
-                    </h1>
-
+                    <h1 className='font-poppins'>Hello! I'm Bharath Shanmugam AV</h1>
                     <p className='text-8xl font-gloock'>Full stack web developer from India</p>
                     <p className='font-poppins'>I specilise in the MERN tech stack, Powered by VSCode ;)</p>
+
+                    <div className='flex mt-6'>
+                        <a className='bg-complement text-background font-poppins px-10 py-4 rounded-lg' href='https://google.com' target={"_blank"}>Github</a>
+                        <a className='text-complement font-poppins px-10 py-4' href='https://google.com' target={"_blank"}>Email</a>
+                    </div>
                 </div>
 
                 <div className="flex-1">
                     <Image src="/hero_background_bg_removed.png" width={533} height={800} />
                 </div>
             </div>
-        
         </>
   )
 }
