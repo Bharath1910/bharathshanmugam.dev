@@ -31,6 +31,10 @@ module.exports = {
 
             aspectRatio: {
                 'hero': '0.67 / 1'
+            },
+
+            spacing: {
+                '128': '32rem',
             }
         },
     },
