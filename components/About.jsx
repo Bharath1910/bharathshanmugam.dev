@@ -3,11 +3,11 @@ import styles from  '../styles/About.module.css'
 function About() {
   return (
     <div>
-        <div className="bg-background h-screen flex flex-row-reverse">
-            <div className="flex-1 text-xl text-white flex justify-center items-center p-16 pl-28 z-10">
+        <div className="bg-background h-fit flex sm:flex-col-reverse xl:flex-row-reverse xl:pt-24">
+            <div className="flex-1 text-xl text-white flex justify-center items-center p-16 xl:pl-28 z-10">
                 <div className='flex flex-col gap-6'>
-                    <p className='text-8xl font-gloock'>About Me</p>
-                    <p className='font-poppins'>
+                    <p className='text-8xl font-oswald'>About <span className=''>Me</span></p>
+                    <p className='font-montserrat'>
                         Hello! My name is A.V.Bharath Shanmugam, from India. 
                         I love creating stuffs which runs on the web. 
                         I started my web development journey a month ago,
@@ -28,18 +28,14 @@ function About() {
                 </div>
             </div>
                 
-            <div className="xl:flex-1 xl:flex xl:justify-center xl:items-center hidden">
-
-                {/* <div className='absolute rotate-12 z-0'>
-                    <div className='w-96 h-96 border-solid rounded-xl border-2 border-white'></div>
-                </div> */}
+            <div className="p-24 flex xl:justify-center sm:items-center sm:w-auto sm:h-auto sm:ml-14">
 
                 <div className='relative'>
-                    <div className='z-20 relative'>
+                    <div className='z-20 relative w-96'>
                         <img className='w-96' src="/me.png" />
                     </div>
 
-                    <div className='absolute top-0 -rotate-12 z-0'>
+                    <div className='absolute top-0 -rotate-12 z-10'>
                         <div className='w-96 h-96 border-solid rounded-xl border-2 border-white'></div>
                     </div>
 

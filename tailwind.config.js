@@ -13,7 +13,9 @@ module.exports = {
             'background': '#12161c',
             'accent': '#3FFFB2',
             'complement': '#3EECFF',
-            'white': '#FFFFFF'
+            'pink': '#FF3D8B',
+            'white': '#FFFFFF',
+            'blue-dark': '#25becf'
         },
         extend: {
             animation: {
@@ -22,11 +24,23 @@ module.exports = {
 
             blur: {
                 '4xl': '128px',
+                '5xl': '460px',   
             },
 
             fontFamily: {
                 'gloock': ['Gloock', 'sans-serif'],
                 'poppins': ['Poppins', 'sans-serif'],
+
+                'bebus': ['Bebus', 'sans-serif'],
+                'montserrat': ['Montserrat', 'sans-serif'],
+
+                'raleway': ['Raleway', 'sans-serif'],
+                'oswald': ['Oswald', 'sans-serif'],
+
+                'lobster': ['Lobster', 'sans-serif'],
+                'dancing': ['Dancing Script', 'sans-serif'],
+                'caveat': ['Caveat', 'sans-serif'],
+                'satisfy': ['Satisfy', 'sans-serif'],
             },
 
             aspectRatio: {
