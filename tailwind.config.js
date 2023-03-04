@@ -15,7 +15,7 @@ module.exports = {
             'complement': '#3EECFF',
             'pink': '#FF3D8B',
             'white': '#FFFFFF',
-            'blue-dark': '#25becf'
+            'blue-dark': '#25becf',
         },
         extend: {
             animation: {

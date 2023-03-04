@@ -19,7 +19,7 @@ function Navbar() {
         </ul>
 
         <div>
-            <a className="bg-accent py-2 px-4 rounded-lg font-raleway" href="http://google.com">Resume</a>
+            <a className={styles.btn} href="http://google.com">Resume</a>
         </div>
     </div>
   )

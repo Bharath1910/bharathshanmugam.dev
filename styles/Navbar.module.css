@@ -22,3 +22,12 @@
 .animate:hover::after {
     width: 110%;
 }
+
+.btn {
+    @apply bg-background text-accent border-solid border-2 px-6 py-3 rounded-lg font-raleway;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    @apply bg-accent text-background rounded-none;
+}
