@@ -12,7 +12,7 @@ function Hero() {
                             <p className="p-1 px-2 font-bold ">Hello! 👋</p>
                             <h1 className='font-montserrat p-1 px-2 rounded-md w-fit font-semibold'><span className=''>I'm Bharath Shanmugam AV</span></h1>
                         </div>
-                        <p className='text-8xl font-raleway'><span className="underline decoration-pink decoration-8">Full stack</span> web developer from <span className="font-satisfy">India</span></p>
+                        <p className='text-8xl font-raleway'><span className="underline decoration-pink decoration-8">Full stack</span> web developer from <span className="font-satisfy decoration-pink underline">India</span></p>
                         <p className='font-montserrat'>I specilise in the <span className="">MERN tech stack</span>, Powered by VSCode ;)</p>
                         <div className='flex mt-6'>
                             <a className='flex gap-2 items-center bg-complement text-background font-poppins px-10 py-4 rounded-lg' href='https://github.com/bharath1910' target={"_blank"}><img src="/github.svg" className="h-6"/>Github</a>
