@@ -3,7 +3,7 @@ import styles from  '../styles/About.module.css'
 function About() {
   return (
     <div>
-        <div className="bg-background h-fit flex sm:flex-col-reverse xl:flex-row-reverse xl:pt-24">
+        <div className="bg-background h-screen flex sm:flex-col-reverse xl:flex-row-reverse xl:pt-24">
             <div className="flex-1 text-xl text-white flex justify-center items-center p-16 xl:pl-28 z-10">
                 <div className='flex flex-col gap-6'>
                     <p className='text-8xl font-oswald'>About <span className=''>Me</span></p>
