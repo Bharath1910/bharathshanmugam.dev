@@ -1,0 +1,24 @@
+.animate {
+    color: #bdbfbe;
+    transition: color 0.3s ease;
+}
+
+.animate:hover {
+    color: #fff;
+}
+
+.animate::after {
+    content: '';
+    position: absolute;
+    top: 36px;
+    left: -3px;
+    width: 0px;
+    height: 5px;
+    background-color: #FF3D8B;
+    z-index: 1;
+    transition: width 0.3s ease; 
+}
+
+.animate:hover::after {
+    width: 110%;
+}
