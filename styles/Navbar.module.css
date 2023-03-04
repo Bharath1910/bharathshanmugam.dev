@@ -31,3 +31,8 @@
 .btn:hover {
     @apply bg-accent text-background rounded-none;
 }
+
+.nav {
+    @apply bg-background text-xl flex place-content-between px-16 items-center;
+    height: 10vh;
+}
