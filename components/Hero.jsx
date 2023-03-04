@@ -1,3 +1,5 @@
+import styles from '../styles/Home.module.css'
+
 function Hero() {
     return (
         <>
@@ -15,8 +17,8 @@ function Hero() {
                         <p className='text-8xl font-raleway'><span className="underline decoration-pink decoration-8">Full stack</span> web developer from <span className="font-satisfy decoration-pink underline">India</span></p>
                         <p className='font-montserrat'>I specilise in the <span className="">MERN tech stack</span>, Powered by VSCode ;)</p>
                         <div className='flex mt-6'>
-                            <a className='flex gap-2 items-center bg-complement text-background px-10 py-4 rounded-lg font-raleway' href='https://github.com/bharath1910' target={"_blank"}><img src="/github.svg" className="h-6"/>Github</a>
-                            <a className=' text-complement font-raleway px-10 py-4' href='mailto:av.bharath@proton.me' target={"_blank"}>Email</a>
+                            <a className={styles.btn} href='https://github.com/bharath1910' target={"_blank"}>Github</a>
+                            <a className="text-complement font-raleway px-10 py-4" href='mailto:av.bharath@proton.me' target={"_blank"}>Email</a>
                         </div>
                     </div>
                 </div>

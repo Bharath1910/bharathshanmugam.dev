@@ -1,0 +1,8 @@
+.btn {
+    @apply flex gap-2 items-center text-complement px-8 py-1 rounded-lg font-raleway border-2 border-solid border-complement;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    @apply bg-complement text-background rounded-none;
+}
