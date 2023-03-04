@@ -7,7 +7,7 @@ function Hero() {
                 <div className='absolute left-24 top-56 rotate-45 w-56 h-72 bg-blue-dark rounded-full p-5'></div>
             </div>
 
-            <div className="bg-background h-screen flex">
+            <div className="bg-background h-[85vh] flex">
                 <div className="flex-1 text-xl text-white flex justify-center items-center px-16 pb-16 xl:pl-28 z-10">
                     <div className='flex flex-col gap-4'>
                         <div>

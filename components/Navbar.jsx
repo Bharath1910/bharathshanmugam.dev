@@ -2,7 +2,7 @@ import styles from '../styles/Navbar.module.css'
 
 function Navbar() {
   return (
-    <div className="bg-background pt-14 text-xl flex place-content-between px-16 items-center">
+    <div className='bg-background text-xl flex place-content-between px-16 items-center h-[15vh]'>
         <ul className="flex text-white gap-14 font-raleway">
             <div className="relative">
                 <a className={styles.animate} href="#testing">Work</a>
