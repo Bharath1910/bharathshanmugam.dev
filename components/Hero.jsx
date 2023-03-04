@@ -4,7 +4,7 @@ function Hero() {
     return (
         <>
             <div className='blur-4xl'>
-                <div className='absolute left-24 top-56 rotate-45 w-56 h-72 bg-blue-dark rounded-full p-5'></div>
+                <div className='absolute left-24 top-20 rotate-45 w-56 h-72 bg-blue-dark rounded-full p-5'></div>
             </div>
 
             <div className="bg-background h-[85vh] flex">
