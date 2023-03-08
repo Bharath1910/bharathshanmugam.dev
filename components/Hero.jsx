@@ -11,11 +11,11 @@ function Hero() {
                 <div className="flex-1 text-xl text-white flex justify-center items-center px-16 pb-16 xl:pl-28 z-10">
                     <div className='flex flex-col gap-4'>
                         <div>
-                            <p className="p-1 px-2 font-bold ">Hello! 👋</p>
-                            <h1 className='font-montserrat p-1 px-2 rounded-md w-fit font-semibold'><span className=''>I'm Bharath Shanmugam AV</span></h1>
+                            <p className="p-1 px-2 font-raleway">Hello! 👋</p>
+                            <h1 className='font-raleway p-1 px-2 rounded-md w-fit'><span className=''>I'm Bharath Shanmugam AV</span></h1>
                         </div>
-                        <p className='text-8xl font-raleway'><span className="underline decoration-pink decoration-8">Full stack</span> web developer from <span className="font-satisfy decoration-pink underline">India</span></p>
-                        <p className='font-montserrat'>I specilise in the <span className="">MERN tech stack</span>, Powered by VSCode ;)</p>
+                        <p className='text-8xl leading-none font-raleway font-extrabold'><span className="underline decoration-pink decoration-8">Full stack</span> web developer from <span className="font-satisfy decoration-pink underline">India</span></p>
+                        <p className='font-raleway'>I specilise in the <span className="">MERN tech stack</span>, Powered by VSCode ;)</p>
                         <div className='flex mt-6'>
                             <a className={styles.btn} href='https://github.com/bharath1910' target={"_blank"}>Github</a>
                             <a className="text-complement font-raleway px-10 py-4" href='mailto:av.bharath@proton.me' target={"_blank"}>Email</a>
@@ -29,7 +29,7 @@ function Hero() {
                     </div>
                 </div>
             </div>
-            </>
+        </>
     )
 }
 
