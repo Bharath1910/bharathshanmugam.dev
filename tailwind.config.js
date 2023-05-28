@@ -24,7 +24,7 @@ module.exports = {
 
             blur: {
                 '4xl': '128px',
-                '5xl': '460px',   
+                '5xl': '460px',  
             },
 
             fontFamily: {
@@ -41,6 +41,8 @@ module.exports = {
                 'dancing': ['Dancing Script', 'sans-serif'],
                 'caveat': ['Caveat', 'sans-serif'],
                 'satisfy': ['Satisfy', 'sans-serif'],
+
+                'syne': ['Syne', 'sans-serif'],
             },
 
             aspectRatio: {
@@ -49,6 +51,11 @@ module.exports = {
 
             spacing: {
                 '128': '32rem',
+            },
+
+            fontSize: {
+                'title': '5rem',
+                'big': '200px',
             }
         },
     },
