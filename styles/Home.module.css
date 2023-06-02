@@ -6,3 +6,21 @@
 .btn:hover {
     @apply bg-[#97F4FF] text-background rounded-none border-[#97F4FF];
 }
+
+.grad {
+    @apply font-satisfy decoration-pink underline;
+    background: linear-gradient(
+            to right bottom,
+            #ff671f 0%,
+            #ff671f 35%,
+
+            #ffffff 45%,
+            #ffffff 55%,
+
+            #046A38 65%,
+            #046A38 100%
+        );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
