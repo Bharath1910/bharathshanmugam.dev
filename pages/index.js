@@ -10,7 +10,6 @@ function Home() {
             <Navbar/>
             <Hero/>
             <About/>
-            <Skills />
         </>
   )
 }
