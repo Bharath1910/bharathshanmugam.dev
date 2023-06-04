@@ -20,13 +20,13 @@ function Navbar() {
         </ul>
 
         <div>
-            <a className={styles.btn} href="http://google.com">Resume</a>
+            <a className={styles.btn} href="http://bharathshanmugam.dev/resume" target={"_blank"}>Resume</a>
         </div>
     </div>
 
     <div className='lg:hidden flex bg-background justify-between p-4 py-6 md:px-8'>
         <div className='flex align-middle'>
-            <a className={styles.btn} href="http://google.com">Resume</a>
+            <a className={styles.btn} href="http://bharathshanmugam.dev/resume" target={"_blank"}>Resume</a>
         </div>
 
         <div>
