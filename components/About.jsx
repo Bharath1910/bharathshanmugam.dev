@@ -8,22 +8,25 @@ function About() {
                 <div className='flex flex-col gap-6'>
                     <p className='text-7xl lg:text-8xl font-oswald'>About <span className=''>Me</span></p>
                     <p className='text-base lg:text-xl font-montserrat'>
-                        Hello! My name is A.V.Bharath Shanmugam, from India. 
+                        Hello! My name is Bharath Shanmugam AV, from India. 
                         I love creating stuffs which runs on the web. 
-                        I started my web development journey a month ago,
+                        I started my full stack web development journey a year ago,
                         by enrolling on a coding bootcamp and completed 
-                        around 15 UI development projects and learning 
-                        new things daily.
+                        many fun challenges and projects. After completing the bootcamp,
+                        I decided to focus more on the backend.
                         <br/>
                         <br/>
-                        My experience in programming is around 2 years, 
-                        I mostly used Python to make Discord bots, Telegram bots,
-                        and automation scripts. I love to learn new things daily, 
-                        which made me proficient in many softwares and technologies.
+                        I've spent the past 3 years working across different areas of
+                        web development, frontend development using ReactJS and NextJS,
+                        backend development using Python Flask, ExpressJS. Databases 
+                        like MongoDB, PostgreSQL, MySQL. I have spent a lot of time
+                        learning DevOps tools like Docker, Kubernetes, and CI/CD platforms
+                        like GitHub Actions.
+
                         <br/>
                         <br/>
-                        I love to teach people, so I write an article every
-                        week related to web development, Python, and Networking. 
+                        In my freetime, I write articles about Python, Docker, Networking and more
+                        You can check it out at <a className='text-complement underline decoration-pink decoration-2' href="https://blog.bharathshanmugam.dev" target={"_blank"}>blog.bharathshanmugam.dev</a>
                     </p>
                 </div>
             </div>
