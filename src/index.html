@@ -7,39 +7,43 @@
 	<link href="./output.css" rel="stylesheet">
 	<title>Welcome</title>
 </head>
-<body class="bg-background mx-12">
+<body class="text-white font-poppins bg-background mx-12 sm:mx-24 md:mx-28">
 	<nav class="my-8">
-		<ul class="text-white text-lg font-raleway flex justify-between w-full">
+		<ul class="
+		text-white text-lg font-raleway flex 
+		justify-between w-full 
+		sm:w-64 ">
 			<li>About</li>
 			<li>Skills</li>
 			<li>Contact</li>
 		</ul>
 	</nav>
 
-	<div class="hero flex">
-		<div class="hero-left">
-			<div class='
-				blur-3xl
-				overflow-clip absolute left-10
-				bg-blue-dark rounded-full p-5 -z-10
-				sm:left-24 sm:w-56 sm:h-72
-				top-32 rotate-45 w-40 h-40'>
-			</div>
-			<div class="text z-10">
-				<div class="text-white font-poppins">
-					<p>Hello 👋</p>
-					<p>I'm Bharath Shanmugam AV</p>
-				</div>
-				<div class="mt-5">
-					<h1 class="text-white font-raleway text-6xl">
-						Backend Developer from
-						<span class="font-satisfy">India.</span>
-					</h1>
-				</div>
+	<div class="hero flex justify-between w-full h-[70vh]">
+		<div class='
+			blur-3xl
+			overflow-clip absolute left-10
+			bg-blue-dark rounded-full p-5 -z-10
+			sm:left-24 sm:w-56 sm:h-72
+			top-32 rotate-45 w-40 h-40'>
+		</div>
+		<div class="hero-left flex-1 flex h-[80%] md:h-full flex-col justify-center">
+			<div class="text text-lg z-10 flex flex-col justify-between h-[22rem]">
+				<p>Hello 👋</p>
+				<p>I'm Bharath Shanmugam AV</p>
+				<h1 class="text-white font-raleway text-6xl md:text-7xl">
+					Backend Developer from
+				<span class="font-satisfy">India.</span>
+				</h1>
+				<p class="text-white font-poppins text-lg font-light mt-5">
+					Proficient in distributed systems and RESTful API development
+				</p>
 			</div>
 		</div>
-		<div class="hero-right hidden sm:block">
-			<img src="./images/hero.png" alt="">
+		<div class="hero-right hidden md:flex flex-col flex-1 justify-center items-end">
+			<div class="w-fit">
+				<img class="aspect-hero w-72" src="./images/hero.png" alt="">
+			</div>
 		</div>
 	</div>
 </body>
