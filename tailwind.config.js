@@ -15,7 +15,10 @@ module.exports = {
         'satisfy': ['Satisfy', 'cursive'],
         'raleway': ['Raleway', 'Sans serif'],
         'poppins': ['Poppins', 'Sans serif']
-      }
+      },
+      aspectRatio: {
+        'hero': '0.67 / 1'
+    },
     },
   },
   plugins: [],
