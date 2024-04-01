@@ -5,16 +5,17 @@
 @tailwind utilities;
 
 .polka {
-	background:
-	/* linear-gradient(0deg, rgba(18,22,28,1) 100%, rgba(39,24,126,0.08090568991268388) 100%) */
-	linear-gradient(130deg, rgba(18,22,28,1) 35%, rgba(39,24,126,0) 100%),
-      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#696969 68% 70%,#0000 72%) 62px 62px/calc(2*62px) calc(2*62px),
-      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#696969 68% 70%,#0000 72%) 62px 62px/calc(2*62px) calc(2*62px),
-      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#696969 68% 70%,#0000 72%) 0 0/calc(2*62px) calc(2*62px),
-      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#696969 68% 70%,#0000 72%) 0 0/calc(2*62px) calc(2*62px),
-      repeating-conic-gradient(#12161c 0 25%,#0000 0 50%) 0 0/calc(2*62px) calc(2*62px),
-      radial-gradient(#0000 66%,#696969 68% 70%,#0000 72%) 0 calc(62px/2)/62px 62px
+      background:
+      linear-gradient(130deg, rgba(18,22,28,1) 50%, rgba(39,24,126,0) 90%),
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#3EECFF 68% 70%,#0000 72%) 100px 100px/calc(2*100px) calc(2*100px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#3EECFF 68% 70%,#0000 72%) 100px 100px/calc(2*100px) calc(2*100px),
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#3EECFF 68% 70%,#0000 72%) 0 0/calc(2*100px) calc(2*100px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#3EECFF 68% 70%,#0000 72%) 0 0/calc(2*100px) calc(2*100px),
+      repeating-conic-gradient(#12161c 0 25%,#0000 0 50%) 0 0/calc(2*100px) calc(2*100px),
+      radial-gradient(#0000 66%,#3EECFF 68% 70%,#0000 72%) 0 calc(100px/2)/100px 100px
       #12161c;
+}
 
-
+.padding {
+      @apply mx-12 sm:mx-24 md:mx-28
 }
